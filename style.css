@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+	width: 95%;
+	margin: 0 auto;
+	background: gray;
+}
+
+main,
+header,
+footer{
+	width: 100%;
+	padding: 1em;
+	margin: 1em;
+	display: flex; /*this is how you set up flexbox*/
+}
+
+.comment-input{
+	flex: 1 1 360px;
+}
+
+.comments{
+	flex: 1 1 360px;
+}
+
+.comments p{
+	padding-left: 0.5 px;
+}
+
+/*this will make the odd number background color*/
+.comments p:nth-child(even){
+	background: white;
+}
+
+/*this will make the odd number background color*/
+.comments p:nth-child(odd){
+	background: gainsboro;
+}

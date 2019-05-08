@@ -1,66 +1,76 @@
+<!--If your using your own laptup you need to edit the Chrome properties link with this
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir="C:/ChromeDevSession"-->
 <!doctype html>
 <html>
-	<head>
-		<title>Amazeriffic</title>
-	</head>
+  <head>
+    <title>Amazeriffic!</title>
+    <link href="stylesheets/reset.css" rel="stylesheet" type="text/css">
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>    
+  </head>
 
-	<body>
-		<header>
-			<h1>Amazeriffic</h1>
-			<nav>
-				<a href="#">Sign up</a> |
-				<a href="#">Faq</a> |
-				<a href="#">Support</a>
-			</nav>
-		</header>
-
-		<main>
-			<h2>Amazeriffic will change your life</h2>
-			<p>
-				This company will take your money and leave you BROKE!
-			</p>
-
-			<h3>Here is why you need to be a part of Amazeriffic</h3>
-			<ul>
-				<li>
-				It will steal your children if you have any.
-				</li>
-				<li>
-				It confuse your family and friends if you have any.
-				</li>
-				<li>
-				It cost you your job if you have one.
-				</li>
-			</ul>
-
-			<img src="autobot.png" alt="an image of a lightbulb" />
-			<img src="images/lightbulb.png" alt="an image of a lightbulb" />
-		</main>
-
-		<footer>
-			<div class="contact">
-				<h5>Contact Us</h5>
-				<h5>Amazeriffic</h5>
-				<h5>555 Fifth Avenue</h5>
-				<h5>Asheville, NC 28801</h5>
-			</div>
-
-			<div class="contact">
-				<h5>Sitemap</h5>
-				<ul>
-					<li><a href="#">Home</a></li>
-					<li><a href="#">About Us</a></li>
-					<li><a href="#">Privacy</a></li>
-					<li><a href="#">Support</a></li>
-					<li><a href="#">FAQ</a></li>
-					<li><a href="#">Contact Us</a></li>
-				</ul>
-
-			</div>
-
-		</footer>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Amazeriffic!</h1>
+        <nav>
+          <a href="#">Sign Up!</a> |
+          <a href="#">FAQ</a> |
+          <a href="#">Support</a>
+        </nav>
+      </div>
+    </header>
 
 
-	</body>
+    <main>
+      <div class="container">
+        <div class="tabs">
+          <a href=""><span class="active">Newest</span></a>
+          <a href=""><span>Oldest</span></a>
+          <a href=""><span>Tags</span></a>
+          <a href=""><span>Add</span></a>
+        </div>
+        <div class="content">
+          <ul>
+            <li>Get Groceries</li>
+            <li>Make up some new ToDos</li>
+            <li>Prep for Monday's class</li>
+            <li>Answer recruiter emails on LinkedIn</li>
+            <li>Take Gracie to the park</li>
+            <li>Finish writing book</li>
+          </ul>
+        </div>
+      </div>
+    </main>
 
+    <footer>
+      <div class="container">
+        <div class="contact">
+          <h5>Contact Us</h5>
+          <p>Amazeriffic!</p>
+          <p>555 Fiftieth Street</p>
+          <p>Asheville, NC 28801</p>
+        </div>
+        <div class="sitemap">
+          <h5>Sitemap</h5>
+          <ul>
+            <div class="left">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Privacy</a></li>
+            </div>
+            <div class="right">
+              <li><a href="#">Support</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Careers</a></li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="javascripts/app2.js"></script>
+  </body>
 </html>
